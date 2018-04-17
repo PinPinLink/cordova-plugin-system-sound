@@ -7,7 +7,7 @@
   <repo>https://github.com/PinPinLink/cordova-plugin-system-sound.git</repo>
   <issue>https://github.com/PinPinLink/cordova-plugin-system-sound/issues</issue>
   <platform name="ios">
-    <js-module src="www/SystemSound.js" name="plugin">
+    <js-module name="SystemSound" src="www/SystemSound.js">
       <runs/>
       <clobbers target="SystemSound"/>
     </js-module>

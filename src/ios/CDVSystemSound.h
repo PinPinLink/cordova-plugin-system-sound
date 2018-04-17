@@ -2,7 +2,7 @@
 #import <AudioToolbox/AudioServices.h>
 #import <Cordova/CDVPlugin.h>
 
-@interface SystemSound : CDVPlugin {}
+@interface CDVSystemSound : CDVPlugin {}
 
 - (void)play:(CDVInvokedUrlCommand *)command;
 
