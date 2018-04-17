@@ -1,0 +1,26 @@
+{
+  "name": "@pinpin.link/cordova-plugin-system-sound",
+  "version": "1.0.0",
+  "author": "Vincent Chen<vincent@pinpin.link>",
+  "description": "Cordova iOS play customized system sound.",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "system sound"
+  ],
+  "license": "Apache version 2.0",
+  "cordova": {
+    "id": "cordova-plugin-system-sound",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "homepage": "https://github.com/PinPinLink/cordova-plugin-system-sound#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PinPinLink/cordova-plugin-system-sound.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PinPinLink/cordova-plugin-system-sound/issues"
+  }
+}

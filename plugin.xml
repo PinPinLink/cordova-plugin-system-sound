@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-system-sound" version="1.0.0">
+  <name>Cordova Plugin System Sound</name>
+  <description>Cordova iOS play customized system sound.</description>
+  <license>Apache 2.0</license>
+  <keywords>system sound</keywords>
+  <repo>https://github.com/PinPinLink/cordova-plugin-system-sound.git</repo>
+  <issue>https://github.com/PinPinLink/cordova-plugin-system-sound/issues</issue>
+  <platform name="ios">
+    <js-module name="SystemSound" src="www/SystemSound.js">
+      <runs/>
+      <clobbers target="SystemSound"/>
+    </js-module>
+    <config-file target="config.xml" parent="/*">
+      <feature name="SystemSound">
+        <param name="ios-package" value="CDVSystemSound" onload="true"/>
+      </feature>
+    </config-file>
+    <header-file src="src/ios/CDVSystemSound.h"/>
+    <source-file src="src/ios/CDVSystemSound.m"/>
+  </platform>
+</plugin>
